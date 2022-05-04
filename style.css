@@ -14,9 +14,11 @@
     /* Font size */
     --hero-main-text-size: 48px;
     --hero-secondary-text-size: 18px;
+    --information-header-text: 36px;
 
     /* Font Weight */
     --hero-main-text-weight: 900; 
+    --information-header-text-weight: 900; 
 
     
 }
@@ -32,7 +34,7 @@
 
 /* ------------------ Header ------------------ */
 .header {
-    padding: 10px 300px;
+    padding: 24px 300px;
     background-color: var(--dark-bg-color);
 }
 
@@ -87,7 +89,7 @@ ul {
     margin-left: 48px;
 }
 
-.contact-me {
+.contact-me-btn {
     padding: 8px 16px;
     background-color: var(--button-color);
     color: var(--hero-secondary-text-color);
