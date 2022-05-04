@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /* Colors */
+    --dark-bg-color: #1F2937;
+    --hero-main-text-color: #F9FaF8;
+    --hero-secondary-text-color: #e5e7eb;
+    --header-logo-color: invert(97%) sepia(100%) saturate(10%) hue-rotate(28deg) brightness(100%) contrast(97%);
+    --button-color: #3882f6;
+    --information-header-text-color: #1f2936;
+    --quote-section-bg-color: #e5e7eb;
+    --quote-text-color: #1f2937;
+
+    /* Font size */
+    --hero-main-text-size: 48px;
+    --hero-secondary-text-size: 18px;
+
+    /* Font Weight */
+    --hero-main-text-weight: 900; 
+
+    
+}
+
+
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ------------------ Header ------------------ */
+.header {
+    padding: 10px 300px;
+    background-color: var(--dark-bg-color);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 24px;
+    filter: var(--header-logo-color);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;;
+}
+
+.nav-links {
+    font-size: var(--hero-secondary-text-size);
+    text-decoration: none;
+    color: var(--hero-secondary-text-color);
+}
+
+/* ------------------ Hero ------------------ */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 400px;
+    background-color: var(--dark-bg-color);
+}
+
+.hero-main-text {
+    font-size: var(--hero-main-text-size);
+    font-weight: var(--hero-main-text-weight);
+    color: var(--hero-main-text-color);
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    font-size: var(--hero-secondary-text-size);
+    color: var(--hero-secondary-text-color);
+    margin-bottom: 24px;
+}
+
+.hero-image {
+    width: 400px;
+    border-radius: 50%;
+    margin-left: 48px;
+}
+
+.contact-me {
+    padding: 8px 16px;
+    background-color: var(--button-color);
+    color: var(--hero-secondary-text-color);
+    border-radius: 6px;
+    font-size: var(--hero-secondary-text-size);
+    border: 0;
+}   
